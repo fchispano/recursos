@@ -45,12 +45,12 @@ $ git commit -c ORIG_HEAD                                   (5)
 ## Contributing
  
 ### Process to contribute and solve merge conflicts:
-1. Fork the repository          1. Fork the repository
-2. Make changes on a local branch       2. Make changes on a local branch
-3. pull Master to be up-to-date         3. pull Master to be up-to-date
-4. merge master into you branch         4. merge master into you branch
-5. push your branch         5. push your branch
-6. pull request to merge.       6. pull request to merge.
+1. Fork the repository
+2. Make changes on a local branch
+3. pull Master to be up-to-date
+4. merge master into you branch
+5. push your branch
+6. pull request to merge.
  
 ### Keep your forked repository up-to-date with the original
 1. `git fetch upstream`
