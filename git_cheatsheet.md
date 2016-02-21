@@ -53,8 +53,16 @@ $ git commit -c ORIG_HEAD                                   (5)
 6. pull request to merge.
  
 ### Keep your forked repository up-to-date with the original
-1. `git fetch upstream`
-2. `git checkout master`
-3. `git merge upstream/master`
- 
-[Source](https://help.github.com/articles/syncing-a-fork/)
+Configure the remote upstream. **You have to do this just once**
+
+1. `git remote add upstream https://github.com/fchispano/recursos.git`
+
+Get the latest changes in the repo:
+
+2. `git fetch upstream`
+3. `git checkout master`
+4. `git merge upstream/master`
+
+Sources: 
+* [Configuring a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
+* [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
