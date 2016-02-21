@@ -1,4 +1,4 @@
-# GIT CheetSheet
+# GIT CheatSheet
 ## Configuration
 * `git config --global user.name "John Doe"`
 * `git config --global user.email johndoe@example.com`
@@ -43,8 +43,9 @@ $ git commit -c ORIG_HEAD                                   (5)
 [Source](http://stackoverflow.com/questions/927358/how-do-you-undo-the-last-commit)
 
 ## Process to contribute and solve merge conflicts:
-1. Make changes on a local branch
-2. pull Master to be up-to-date
-3. merge master into you branch
-4. push your branch
-5. pull request to merge.
+1. Fork the repository
+2. Make changes on a local branch
+3. pull Master to be up-to-date
+4. merge master into you branch
+5. push your branch
+6. pull request to merge.
