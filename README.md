@@ -16,8 +16,8 @@ compartir recursos relacionados con el curriculum que estamos
 estudiando en la plataforma **Free Code Camp**. 
 
 Aunque nuestro principal enfoque es aportar recursos que ayuden a completar FCC, es posible que el contenido
-que  aquí albergamos, pueda ser de utilidad a **cualquier persona que esté aprendiendo desarrollo web y
-JavaScript**. Por lo que no necesitas ser usuario de FCC para utilizar estos recursos.
+que  aquí albergamos, pueda ser de utilidad a **cualquier persona que esté aprendiendo desarrollo web en general y más particularmente si está aprendiendo JavaScript**.
+Por lo que no necesitas ser usuario de FCC para utilizar estos recursos.
 
 En este repositorio encontrarás enlaces para:
 
