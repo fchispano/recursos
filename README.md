@@ -4,7 +4,7 @@
 [![Habla con nosotros en 
 https://gitter.im/fchispano/General](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fchispano/General?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-FreeCodeHispano es un grupo de usuarios de freeCodeCamp que nos conocimos en el chat
+FreeCodeHispano somos un grupo de usuarios de freeCodeCamp que nos conocimos en el chat
 de [FreeCodeCamp/Espanol](https://gitter.im/FreeCodeCamp/Espanol) y que ante la falta
 de grupos locales activos en nuestras inmediaciones, decidimos empezar a realizar
 **quedadas** a través de internet.
