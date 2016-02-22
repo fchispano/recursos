@@ -26,8 +26,6 @@ En este repositorio encontrarás enlaces para:
 * Podcasts
 * Material creado por nuestros miembros
 
-Si quieres unirte y hablar con nosotros, entra en nuestro [canal de Gitter](https://github.com/fchispano)
-
 ## Contribuir
 
 Si quieres contribuir con el proyecto, [aquí](./CONTRIBUTING.md) te explicamos cómo.
