@@ -12,5 +12,5 @@ currículum que estamos estudiando en la plataforma [FreeCodeCamp](http://www.fr
 
 ## Contribuir
 
-Si quieres contribuir con el proyecto, [aqui](./CONTRIBUTING.md) te explicamos cómo.
-No te preocupes, no es nada complicado ;).
+Si quieres contribuir con el proyecto, [aquí](./CONTRIBUTING.md) te explicamos cómo.
+No te preocupes, no es nada complicado :wink:.
