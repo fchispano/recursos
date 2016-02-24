@@ -6,6 +6,7 @@ https://gitter.im/fchispano/General](https://badges.gitter.im/Join%20Chat.svg)](
 
 **Free Code Hispano** lo formamos un grupo de estudiantes de
 [Free Code Camp](http://www.freecodecamp.com/).
+
 Nos conocimos en el canal español de la plataforma,
 [FreeCodeCamp/Espanol](https://gitter.im/FreeCodeCamp/Espanol), y, ante la falta
 de grupos locales activos en nuestras inmediaciones, decidimos empezar a
@@ -20,6 +21,7 @@ Aunque nuestro objetivo principal sea aportar recursos que ayuden a completar
 **Free Code Camp**,
 **la información que recopilamos puede serle de utilidad a cualquier persona**
 **que esté aprendiendo desarrollo web en general y JavaScript en particular**.
+
 Por lo tanto, no necesitas ser alumno de **FCC** para sacarle partido a todos
 estos recursos.
 
@@ -35,4 +37,4 @@ En este repositorio encontrarás enlaces a:
 
 Si quieres contribuir con el proyecto, [aquí](./CONTRIBUTING.md) te explicamos
 cómo.
-No te preocupes, no es nada complicado :wink:.
+No te preocupes: no es nada complicado :wink:.
