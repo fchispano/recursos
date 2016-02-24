@@ -17,6 +17,7 @@
 * `git branch`
 * `git branch <new_branch_name>`
 * `git branch -d <branch_name_to_delete>` (deletes the branch label, not the commits!)
+* `git push <remote repo> :<remote_branch>` (deletes a remote branch, be careful!)
 
 ## Retrieving information
 * `git diff`
@@ -43,7 +44,7 @@ $ git commit -c ORIG_HEAD                                   (5)
 [Source](http://stackoverflow.com/questions/927358/how-do-you-undo-the-last-commit)
 
 ## Contributing
- 
+
 ### Process to contribute and solve merge conflicts:
 1. Fork the repository
 2. Make changes on a local branch
@@ -51,7 +52,7 @@ $ git commit -c ORIG_HEAD                                   (5)
 4. merge master into you branch
 5. push your branch
 6. pull request to merge.
- 
+
 ### Keep your forked repository up-to-date with the original
 Configure the remote upstream. **You have to do this just once**
 
@@ -63,6 +64,6 @@ Get the latest changes in the repo:
 3. `git checkout master`
 4. `git merge upstream/master`
 
-Sources: 
+Sources:
 * [Configuring a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
 * [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
