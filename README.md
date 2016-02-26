@@ -30,6 +30,7 @@ En este repositorio encontrarás enlaces a:
 * [libros](./libros-books.md);
 * MOOC;
 * [artículos](./blog-posts.md);
+* [videos](./videos.md);
 * podcasts;
 * material creado por nuestros miembros.
 
