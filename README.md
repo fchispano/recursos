@@ -28,7 +28,7 @@ estos recursos.
 En este repositorio encontrarás enlaces a:
 
 * [libros](./libros-books.md);
-* MOOC
+* MOOC;
 * [artículos](./blog-posts.md);
 * podcasts;
 * material creado por nuestros miembros.
