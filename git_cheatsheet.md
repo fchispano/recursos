@@ -67,3 +67,4 @@ Get the latest changes in the repo:
 Sources:
 * [Configuring a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
 * [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
+* [A successful git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
