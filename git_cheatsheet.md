@@ -31,7 +31,7 @@
 * `git reset` (remove all from staging area)
 * `git commit —amend -m <“message”>` [Edit an incorrect commit message in Git](http://stackoverflow.com/questions/179123/edit-an-incorrect-commit-message-in-git)
 * `git rm --cached file.txt` (delete a file from the  repo but not from the system)
-* `git reset —hard <commit>` (revert last changes to the commit, for the last changes we can use HEAD as commit)
+* `git reset --hard <commit>` (revert last changes to the commit, for the last changes we can use HEAD as commit)
 
 ### Undo a commit and redo
 ```
