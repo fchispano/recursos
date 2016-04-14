@@ -16,8 +16,11 @@
 * `git fetch` (new label on the local repository with the commits up-to-date of remote)
 * `git branch`
 * `git branch <new_branch_name>`
+* `git checkout -b branchName`
 * `git branch -d <branch_name_to_delete>` (deletes the branch label, not the commits!)
 * `git push <remote repo> :<remote_branch>` (deletes a remote branch, be careful!)
+* `git merge branchName`
+* `git merge --no-ff branchName` (Avoids fast-forward merges creating always a commit for the merge)
 
 ## Retrieving information
 * `git diff`
