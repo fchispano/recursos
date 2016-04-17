@@ -29,6 +29,7 @@
 * `git log --graph --oneline`
 * `git remote` (show remote repository)
 * `git remote -v` (as git remote but with extra info)
+* `git ls-files` See files being tracked
 
 ## Undo and modify commits
 * `git reset` (remove all from staging area)
