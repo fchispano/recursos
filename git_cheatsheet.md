@@ -17,14 +17,23 @@
 * `git branch`
 * `git branch <new_branch_name>`
 * `git checkout -b branchName`
-* `git branch -d <branch_name_to_delete>` (deletes the branch label, not the commits!)
-* `git push <remote repo> :<remote_branch>` (deletes a remote branch, be careful!)
+* `git branch -d <branch_name_to_delete>` (delete the branch label, not the commits!)
+* `git branch -m old_branch_name new_branch_name` (rename a local
+  branch)
+* `git push <remote_repo> :<remote_branch>` (delete a remote branch, be careful!)
+* `git push <remote repo> :<remote_old_branch_name>
+  <remote_new_branch_name>` (delete the remote old branch name and push
+  the just renamed branch)
 * `git merge branchName`
-* `git merge --no-ff branchName` (Avoids fast-forward merges creating always a commit for the merge)
+* `git merge --no-ff branchName` (avoid fast-forward merges creating always a commit for the merge)
 
 ## Retrieving information
 * `git diff`
 * `git diff <hash1> <has2>`
+* `git diff <branch1>..<branch2>` (show what is in branch2 that isn't in
+  branch1)
+* `git diff <branch1>...<branch2>` (show what is in branch1 or in
+  branch2, but not in both [XOR operation])
 * `git log`
 * `git log --graph --oneline`
 * `git remote` (show remote repository)
