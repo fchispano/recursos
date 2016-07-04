@@ -12,6 +12,7 @@
 * `git add .`  →  stage all files: new, modified or deleted
 * `git add -A` or `git add --all`  →  does the same that the previous command, but looks more straightforward
 * `git commit -m “message"`  →  commit all staged files and add a short message explaining the changes
+* `git commit -am “message"`  →  stages all tracked files and does a commit with the specified message
 * `git push <remote-repo> <local-branch>`  →  push the changes in `<local-branch>` to `<remote-repo>`
 * `git pull <remote-repo> <local-branch>`  →  pull the changes in `<remote-repo>` not in `<local-branch>`
 * `git fetch`  →  new label on the local repository with the commits up-to-date of remote
