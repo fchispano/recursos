@@ -1,50 +1,47 @@
 # GIT CheatSheet
 ## Configuration
-* `git config --global user.name "John Doe"`
-* `git config --global user.email johndoe@example.com`
-* `git config --global core.editor <editor path>`
+* `git config --global user.name "John Doe"`  →  config the user name for local repositories
+* `git config --global user.email johndoe@example.com`  →  config the user email for local repositories
+* `git config --global core.editor <editor path>`  →  config main text editor for edit git related stuff
 * `git config --global core.editor “’editor_path’ -n -w"`
-* `git remote add <remote name> <url>` (create the remote repository)
+* `git remote add <remote name> <url>`  →  create the remote repository
 
 ## Working with the repo
-* `git init`
-* `git add (file)`
-* `git add .`
-* `git commit -m <“message">`
-* `git push <remote repo> <local branch>`
-* `git pull <remote repo> <local branch>`
-* `git fetch` (new label on the local repository with the commits up-to-date of remote)
-* `git branch`
-* `git branch <new_branch_name>`
-* `git checkout -b branchName`
-* `git branch -d <branch_name_to_delete>` (delete the branch label, not the commits!)
-* `git branch -m old_branch_name new_branch_name` (rename a local
-  branch)
-* `git push <remote_repo> :<remote_branch>` (delete a remote branch, be careful!)
-* `git push <remote repo> :<remote_old_branch_name>
-  <remote_new_branch_name>` (delete the remote old branch name and push
-  the just renamed branch)
-* `git merge branchName`
-* `git merge --no-ff branchName` (avoid fast-forward merges creating always a commit for the merge)
+* `git init`  →  start a git repo in the working folder
+* `git add (file)`  →  begin tracking changes in `file` and prepare it to be committed, that's known as "stage" a file, because we add it to the staging area
+* `git add .`  →  stage all files: new, modified or deleted
+* `git add -A` or `git add --all`  →  does the same that the previous command, but looks more straightforward
+* `git commit -m “message"`  →  commit all staged files and add a short message explaining the changes
+* `git push <remote-repo> <local-branch>`  →  push the changes in `<local-branch>` to `<remote-repo>`
+* `git pull <remote-repo> <local-branch>`  →  pull the changes in `<remote-repo>` not in `<local-branch>`
+* `git fetch`  →  new label on the local repository with the commits up-to-date of remote
+* `git push --all <remote-repo>`  →  push all branches to `<remote-repo>`, useful when you want to push changes in several branches (caveat: keep your local branches tidy and clean)
+* `git branch`  →  list all the branches in the repository
+* `git branch <new-branch-name>`  →  create a new branch `<new-branch-name>
+* `git checkout -b <new-branch-name>`  →  create and move the a new branch `<new-branch-name>`
+* `git branch -d <branch-name-to-delete>`  →  delete the branch `<branch-name-to-delete>` (the branch changes must be fully merged in upsteam, usually master, or the deletion will fail)
+* `git branch -m <old-branch-name> <new-branch-name>`  →  rename a local branch
+* `git push <remote-repo> :<remote-branch>`  →  delete a remote branch, be careful!
+* `git push <remote-repo> :<remote-old-branch-name> <remote-new-branch-name>`  →  delete the remote old branch name and push the just renamed branch
+* `git merge <branch-name>`  →  merge `<branch-name>` with the actual branch
+* `git merge --no-ff <branch-name>`  →  avoid fast-forward merge, creating a commit for the merge
 
 ## Retrieving information
-* `git diff`
-* `git diff <hash1> <has2>`
-* `git diff <branch1>..<branch2>` (show what is in branch2 that isn't in
-  branch1)
-* `git diff <branch1>...<branch2>` (show what is in branch1 or in
-  branch2, but not in both [XOR operation])
-* `git log`
-* `git log --graph --oneline`
-* `git remote` (show remote repository)
-* `git remote -v` (as git remote but with extra info)
-* `git ls-files` See files being tracked
+* `git diff`  →  show differences between what is already in the index and files that have changed and could be added
+* `git diff <hash1> <hash2>`  →  show differences between commit with `<hash1>` and commit with `<hash2>`
+* `git diff <branch1>..<branch2>`  →  show what is in `<branch2>` that isn't in `<branch1>`
+* `git diff <branch1>...<branch2>`  →  show what is in `<branch1>` or in `<branch2>`, but not in both (XOR operation)
+* `git log`  →  shows the commit log
+* `git log --graph --oneline`  →  shows a resumed version of `git log`, and draws with ASCII a commit history graph
+* `git remote`  →  list remote repositories
+* `git remote -v`  →  as `git remote` but with extra info
+* `git ls-files`  →  See files being tracked
 
 ## Undo and modify commits
-* `git reset` (remove all from staging area)
-* `git commit —amend -m <“message”>` [Edit an incorrect commit message in Git](http://stackoverflow.com/questions/179123/edit-an-incorrect-commit-message-in-git)
-* `git rm --cached file.txt` (delete a file from the  repo but not from the system)
-* `git reset --hard <commit>` (revert last changes to the commit, for the last changes we can use HEAD as commit)
+* `git reset`  →  remove all from staging area
+* `git commit —amend -m <“message”>`  [Edit an incorrect commit message in Git](http://stackoverflow.com/questions/179123/edit-an-incorrect-commit-message-in-git)
+* `git rm --cached file.txt`  →  delete a file from the repo but not from the filesystem
+* `git reset --hard <commit>`  →  revert last changes to the commit, for the last changes we can use HEAD as commit
 
 ### Undo a commit and redo
 ```
