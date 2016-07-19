@@ -37,6 +37,7 @@
 * `git remote`  →  list remote repositories
 * `git remote -v`  →  as `git remote` but with extra info
 * `git ls-files`  →  See files being tracked
+* `git show --stat --oneline <commit>` -> Show the commit message and the files modified in that commit [source](http://stackoverflow.com/a/11442967)
 
 ## Undo and modify commits
 * `git reset`  →  remove all from staging area
