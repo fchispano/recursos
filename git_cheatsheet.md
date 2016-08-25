@@ -33,6 +33,7 @@
 * `git diff <branch1>..<branch2>`  →  show what is in `<branch2>` that isn't in `<branch1>`
 * `git diff <branch1>...<branch2>`  →  show what is in `<branch1>` or in `<branch2>`, but not in both (XOR operation)
 * `git log`  →  shows the commit log
+* `git log -1` → shows the last commit. Change the number to see more commits
 * `git log --graph --oneline`  →  shows a resumed version of `git log`, and draws with ASCII a commit history graph
 * `git remote`  →  list remote repositories
 * `git remote -v`  →  as `git remote` but with extra info
