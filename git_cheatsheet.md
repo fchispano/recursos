@@ -26,6 +26,8 @@
 * `git push <remote-repo> :<remote-old-branch-name> <remote-new-branch-name>`  →  delete the remote old branch name and push the just renamed branch
 * `git merge <branch-name>`  →  merge `<branch-name>` with the actual branch
 * `git merge --no-ff <branch-name>`  →  avoid fast-forward merge, creating a commit for the merge
+* `git tag`  → view branch tags 
+* `git tag -a v1.4 -m "my version 1.4"`  →  add an annotated tag
 
 ## Retrieving information
 * `git diff`  →  show differences between what is already in the index and files that have changed and could be added
