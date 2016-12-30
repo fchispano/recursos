@@ -26,7 +26,7 @@
 * `git push <remote-repo> :<remote-old-branch-name> <remote-new-branch-name>`  →  delete the remote old branch name and push the just renamed branch
 * `git merge <branch-name>`  →  merge `<branch-name>` with the actual branch
 * `git merge --no-ff <branch-name>`  →  avoid fast-forward merge, creating a commit for the merge
-* `git tag`  → view branch tags 
+* `git tag`  → view branch tags
 * `git tag -a v1.4 -m "my version 1.4"`  →  add an annotated tag
 
 ## Retrieving information
@@ -57,6 +57,25 @@ $ git add .                                                 (4)
 $ git commit -c ORIG_HEAD                                   (5)
 ```
 [Source](http://stackoverflow.com/questions/927358/how-do-you-undo-the-last-commit)
+
+
+### Serching for a bug
+
+1. `git bisect start`
+2. `git bisect bad`
+3. `git bisect good <commit>` → A commit you know for sure doesn't have the bug
+
+After this the process of serching will begin. In each step git selects a new
+commit, you test it and decide what to do until you narrowed down the issue unitl
+a single commit.
+
+* If the commit has the bug: `git bisect bad`
+* If the commit doesn't have the bug: `git bisect good`
+
+When you have the commit with the issue, type `git bisect restart` to go back
+to the HEAD of your current branch.
+
+For more infor read the git documentation about [git bisect](https://git-scm.com/book/es/v2/Git-Tools-Debugging-with-Git#Binary-Search)
 
 ## Contributing
 
