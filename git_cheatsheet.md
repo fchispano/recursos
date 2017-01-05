@@ -41,6 +41,7 @@
 * `git remote -v`  →  as `git remote` but with extra info
 * `git ls-files`  →  See files being tracked
 * `git show --stat --oneline <commit>` -> Show the commit message and the files modified in that commit [source](http://stackoverflow.com/a/11442967)
+* `git blame -L <startingLine>,<endingLine> <file> → Shows the author of every line in the given range for the specified line. [more info](https://git-scm.com/docs/git-blame#_specifying_ranges)
 
 ## Undo and modify commits
 * `git reset`  →  remove all from staging area
