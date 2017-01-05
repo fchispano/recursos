@@ -99,6 +99,14 @@ Get the latest changes in the repo:
 3. `git checkout master`
 4. `git merge upstream/master`
 
+## Other tips
+
+### A nice formated git log --graph
+
+Give the following command an alias (e.g: gitl) and enjoy ;)
+
+`git log --graph --abbrev-commit --decorate --format=format:"%C(bold yellow)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n""   %C(white)%s%C(reset) %C(dim white)- %an%C(reset)" --all`
+
 Sources:
 * [Configuring a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
 * [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
