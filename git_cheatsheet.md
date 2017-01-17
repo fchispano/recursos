@@ -28,6 +28,7 @@
 * `git merge --no-ff <branch-name>`  →  avoid fast-forward merge, creating a commit for the merge
 * `git tag`  → view branch tags
 * `git tag -a v1.4 -m "my version 1.4"`  →  add an annotated tag
+* `git tag -d <tag>` → deletes <tag>
 
 ## Retrieving information
 * `git diff`  →  show differences between what is already in the index and files that have changed and could be added
