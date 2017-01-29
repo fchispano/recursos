@@ -24,7 +24,7 @@
   - [Process to contribute and solve merge conflicts](#process-to-contribute-and-solve-merge-conflicts-)
   - [Keep your forked repository up-to-date with the original](#keep-your-forked-repository-up-to-date-with-the-original-)
 - [Other tips](#other-tips-)
-  - [A nice formated git log --graph](#a-nice-formated-git-log--graph-)
+  - [A nice formated git log graph](#a-nice-formated-git-log-graph-)
 
 ## Configuration [↑](#git-cheatsheet)
 
@@ -179,7 +179,7 @@ Get the latest changes in the repo:
 
 ## Other tips [↑](#git-cheatsheet)
 
-### A nice formated git log --graph [↑](#git-cheatsheet)
+### A nice formated git log graph [↑](#git-cheatsheet)
 
 Give the following command an alias (e.g: gitl) and enjoy ;)
 
