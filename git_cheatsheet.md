@@ -32,6 +32,8 @@
 * `git config --global user.email johndoe@example.com`  →  config the user email for local repositories
 * `git config --global core.editor <editor path>`  →  config main text editor for edit git related stuff
 * `git config --global core.editor “’editor_path’ -n -w"`
+* `git config --global commit.verbose 1` → shows verbose commits by default. See [Commiting
+  changes](#commiting-changes-) 
 * `git remote add <remote name> <url>`  →  create the remote repository
 
 ## Working with the local repo [↑](#git-cheatsheet)
@@ -48,6 +50,9 @@
 
 * `git commit -m “message"`  →  commit all staged files and add a short message explaining the changes
 * `git commit -am “message"`  →  stages all tracked files and does a commit with the specified message
+* `git commit -v` → apart from staging tracked files, show a diff of these changes about to be commited. 
+* `git commit -vv` → just like the previous, but also includes in the diff changes in the working
+  tree (unstaged changes) 
 
 ### Branching [↑](#git-cheatsheet)
 
