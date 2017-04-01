@@ -99,8 +99,8 @@
 
 * `git diff`  →  show differences between what is already in the index and files that have changed and could be added
 * `git diff <hash1> <hash2>`  →  show differences between commit with `<hash1>` and commit with `<hash2>`
-* `git diff <branch1>..<branch2>`  →  show what is in `<branch2>` that isn't in `<branch1>`
-* `git diff <branch1>...<branch2>`  →  show what is in `<branch1>` or in `<branch2>`, but not in both (XOR operation)
+* `git diff <branch1> .. <branch2>`  →  show what is in `<branch2>` that isn't in `<branch1>`
+* `git diff <branch1> ... <branch2>`  →  show what is in `<branch1>` or in `<branch2>`, but not in both (XOR operation)
 * `git diff --cached` → show differences between staged files (added to the index and prepared to commit) and current HEAD (last commit)
 * `git diff HEAD` → show differences between the working directory (staged and unstaged files) and current HEAD
 
