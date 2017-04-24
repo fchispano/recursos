@@ -11,6 +11,7 @@
   - [Bringing changes](#bringing-changes-)
   - [Remote branching](#remote-branching-)
   - [Sending changes](#sending-changes-)
+  - [Handling tags in the remote](#handling-tags-in-the-remote-)
 - [Retrieving information](#retrieving-information-)
   - [Differences](#differences-)
   - [Logs](#logs-)
@@ -92,6 +93,11 @@
 
 * `git push --all <remote-repo>`  →  push all branches to `<remote-repo>`, useful when you want to push changes in several branches (caveat: keep your local branches tidy and clean)
 
+### Handling tags in the remote [↑](#git-cheatsheet)
+
+* `git push <remote-repo> tagname` → send tag `tagname` to the remote repo
+* `git push <remote-repo> --tags` → send to remote repo all tags not already pushed
+* `git push --delete <remote-repo> tagname` → remove a git remote tag
 
 ## Retrieving information [↑](#git-cheatsheet)
 
