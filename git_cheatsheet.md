@@ -132,7 +132,7 @@
 ### Other info [↑](#git-cheatsheet)
 
 * `git ls-files`  →  See files being tracked
-* `git show --stat --oneline <commit>` -> Show the commit message and the files modified in that commit [source](http://stackoverflow.com/a/11442967)
+* `git show --stat --oneline <commit>` → Show the commit message and the files modified in that commit [source](http://stackoverflow.com/a/11442967)
 * `git show --pretty="" --name-only <commit>` → Show the changed files in a given commit
 
 ## Undo and modify commits [↑](#git-cheatsheet)
