@@ -115,6 +115,10 @@
 * `git log`  →  shows the commit log
 * `git log -1` → shows the last commit. Change the number to see more commits
 * `git log --graph --oneline`  →  shows a resumed version of `git log`, and draws with ASCII a commit history graph
+* `git log --name-only` → Logs commits with the full path of changed files [credits](https://stackoverflow.com/a/1230094)
+* `git log --name-status` → Logs commits with the full path and status of changed files [credits](https://stackoverflow.com/a/1230094)
+* `git log --stat` → Logs commits with the abbreviated pathnames and a diffstat of changed files [credits](https://stackoverflow.com/a/1230094)
+
 
 ### Remotes [↑](#git-cheatsheet)
 
